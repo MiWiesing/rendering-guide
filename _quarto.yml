@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "A Real-Time VR Rendering Survival Guide"
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/MiWiesing
+  page-footer: "© 2026 Michael Wiesing & Mel Slater — University of Barcelona"
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: 1
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    format-links: [typst]        # shows the PDF download link in the sidebar
+    lightbox: true               # click figures to enlarge
+  typst:
+    output-file: "VR-Rendering-Survival-Guide.pdf"
+    toc: true
+    number-sections: true
+    fig-align: center
+    margin:
+      x: 2.5cm
+      y: 2.5cm
