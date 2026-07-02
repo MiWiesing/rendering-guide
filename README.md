@@ -1,7 +1,7 @@
 # A Real-Time VR Rendering Survival Guide for Human Scientists
 
-Quarto source for the guide website + PDF.
-
+[Quarto source for the guide website + PDF.
+](https://miwiesing.github.io/rendering-guide/)
 ## Structure
 - `index.qmd` — the entire guide (edit this file to update the guide)
 - `media/` — all figures
