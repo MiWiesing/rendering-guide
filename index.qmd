@@ -3,13 +3,8 @@ title: "A Real-Time VR Rendering Survival Guide for Human Scientists"
 author:
   - name: Michael Wiesing
     email: m.wiesing@ub.edu
-    corresponding: true
-    affiliations:
-      - name: "Event Lab, Department of Clinical Psychology and Psychobiology, University of Barcelona, Barcelona, Spain"
-  - name: Mel Slater
-    affiliations:
-      - name: "Event Lab, Department of Clinical Psychology and Psychobiology, University of Barcelona, Barcelona, Spain"
-      - name: "Institute of Neurosciences of the University of Barcelona, Barcelona, Spain"
+
+
 abstract: |
   Virtual reality (VR) has emerged as a transformative tool for experimental research in the human sciences, yet the development of immersive and high-fidelity virtual environments presents significant technical challenges. Here we present a comprehensive guide for researchers which prior experience in VR rendering seeking to improve the realistic rendering techniques and optimization of VR scenarios. We detail the core principles of real-time rendering---from the intricacies of the graphics pipeline and shader workflows to the management of draw calls and performance optimization---while addressing the unique demands of rendering. This guide aims to equip researchers with the knowledge to create visually compelling and performance-optimized virtual experiments. We aim to bridge the gap between advanced rendering methodologies and experimental design, thereby empowering human science researchers to implement robust and reproducible VR environments.
 ---
