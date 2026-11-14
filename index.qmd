@@ -4,7 +4,6 @@ author:
   - name: Michael Wiesing
     email: m.wiesing@ub.edu
 
-© 2026 Michael Wiesing. This guide is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt it for any purpose, provided you give appropriate credit.
 
 abstract: |
   Virtual reality (VR) has emerged as a transformative tool for experimental research in the human sciences, yet the development of immersive and high-fidelity virtual environments presents significant technical challenges. Here we present a comprehensive guide for researchers which prior experience in VR rendering seeking to improve the realistic rendering techniques and optimization of VR scenarios. We detail the core principles of real-time rendering---from the intricacies of the graphics pipeline and shader workflows to the management of draw calls and performance optimization---while addressing the unique demands of rendering. This guide aims to equip researchers with the knowledge to create visually compelling and performance-optimized virtual experiments. We aim to bridge the gap between advanced rendering methodologies and experimental design, thereby empowering human science researchers to implement robust and reproducible VR environments.
@@ -35,6 +34,8 @@ Commercial game developers aim to create marketable products, which often requir
 Also, the typical scale of commercial VR games differs from that of typical research scenarios. While games often feature expansive environments and prolonged gameplay, research scenarios are usually much smaller in scope, both in terms of the size of the virtual environment and the duration of use. Of course, there are exceptions where research demands large-scale virtual environments (see e.g., Nezami et al., 2021; Wiesing et al., 2024)---but these remain relatively rare. Most experiments do not require more than a single room or a small outdoor scene, which simplifies design and performance optimization.
 
 Another key difference in performance optimization is that game developers---especially those targeting PC---must ensure their games run smoothly across a wide range of hardware platforms. Since players may use anything from high-end machines to low-spec systems, developers need to implement scalability options, such as toggles for rendering features or adjustable texture resolutions, to accommodate different performance levels. In contrast, research experiments typically run on a fixed set of hardware within a controlled laboratory environment. This allows researchers to optimize specifically for a single device, eliminating the need for scalability options and greatly simplifying the optimization process. And because the hardware and performance parameters remain constant, there is no excuse for performance issues---developers can and should test the scenario in advance until it is certain to run smoothly in every session.
+
+© 2026 Michael Wiesing. This guide is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt it for any purpose, provided you give appropriate credit.
 
 ## About this guide
 
