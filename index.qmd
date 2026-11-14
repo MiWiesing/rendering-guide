@@ -4,6 +4,7 @@ author:
   - name: Michael Wiesing
     email: m.wiesing@ub.edu
 
+© 2026 Michael Wiesing. This guide is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt it for any purpose, provided you give appropriate credit.
 
 abstract: |
   Virtual reality (VR) has emerged as a transformative tool for experimental research in the human sciences, yet the development of immersive and high-fidelity virtual environments presents significant technical challenges. Here we present a comprehensive guide for researchers which prior experience in VR rendering seeking to improve the realistic rendering techniques and optimization of VR scenarios. We detail the core principles of real-time rendering---from the intricacies of the graphics pipeline and shader workflows to the management of draw calls and performance optimization---while addressing the unique demands of rendering. This guide aims to equip researchers with the knowledge to create visually compelling and performance-optimized virtual experiments. We aim to bridge the gap between advanced rendering methodologies and experimental design, thereby empowering human science researchers to implement robust and reproducible VR environments.
@@ -76,6 +77,7 @@ Ideally, researchers would have access to open, license-free asset libraries opt
 Building on this idea of open resources to support VR development and open science, we are releasing a Unity project that includes six virtual environments developed from our previous and ongoing research, all published under a creative commons licenses, mostly CC0. These environments range from a small test chamber and everyday interiors, such as an office or a living room, to a scene resembling the Roman Pantheon. The Unity project is available for download at:
 
 [[https://gitlab.com/eventlabprojects/openenvironments]{.underline}](https://gitlab.com/eventlabprojects/openenvironments)
+
 
 # Real-Time Rendering
 
